@@ -16,7 +16,7 @@ export default function Home() {
           playsInline
           muted
           loop
-          tabindex="0"
+          tabIndex="0"
         >
           <source src="/video/muy-pronto.mp4" type="video/mp4;" />
           <source src="/video/muy-pronto.webm" type="video/webm;" />
