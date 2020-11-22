@@ -10,7 +10,14 @@ export default function Home() {
       </Head>
 
       <div className={styles.teaser_container}>
-        <video className={styles.teaser} autoPlay playsInline loop tabindex="0">
+        <video
+          className={styles.teaser}
+          autoPlay
+          playsInline
+          muted
+          loop
+          tabindex="0"
+        >
           <source src="/video/muy-pronto.mp4" type="video/mp4;" />
           <source src="/video/muy-pronto.webm" type="video/webm;" />
         </video>
